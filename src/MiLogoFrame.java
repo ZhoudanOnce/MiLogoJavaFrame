@@ -51,7 +51,7 @@ public class MiLogoFrame extends JFrame {
      */
     @Override
     public void paint(Graphics g) {
-
+        g.setColor(new Color(222,222,22));
     }
 
 
@@ -65,7 +65,8 @@ public class MiLogoFrame extends JFrame {
         var mi = new MiLogoFrame();
         mi.setVisible(true);
 //        System.out.println(Math.PI);
-//        System.out.println(Math.pow(-0.2,3));
-
+//        System.out.println(Math.pow(-0.2,3))
+        var a = "123";
+        a.indexOf("ll");
     }
 }
