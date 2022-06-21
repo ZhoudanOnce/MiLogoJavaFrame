@@ -30,6 +30,7 @@ public class MiLogoFrame extends JFrame {
      * 窗口初始化
      */
     private void init() {
+
         setSize(frameWidth, frameHeight);
         setTitle();
         //窗口焦点事件
